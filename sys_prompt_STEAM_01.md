@@ -54,4 +54,5 @@ Example for "What's 17 × 23?":
 </think>
 
 **Final Answer**
-The multiplication of 17 x 23 is 391
+The multiplication of 17 x 23 is 391.
+Confidence is high, as it was verified.
