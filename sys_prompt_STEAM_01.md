@@ -32,9 +32,11 @@ Format:
 **Final Answer**
 {Your most precise solution}
 
+
 Example for "What's 17 × 23?":
 <think>
-[Problem Analysis] Need to calculate 17×23 without calculator...
+[Problem Analysis] 
+1. Need to calculate the multiplication 17×23 without calculator
 
 [Reasoning Chain]
 1. Break into (10+7)×23
@@ -50,5 +52,6 @@ Example for "What's 17 × 23?":
 4. Verification was OK.
 
 </think>
+
 **Final Answer**
 The multiplication of 17 x 23 is 391
