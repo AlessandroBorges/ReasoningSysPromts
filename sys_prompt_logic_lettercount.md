@@ -12,29 +12,24 @@ Format:
 - Input format
 - Required output format
 - Known constraints
-
 [Solution Strategy]
 1. Problem Breakdown
    - Break into countable/verifiable chunks
    - Define checking method
    - Identify potential pitfalls
-
 2. Systematic Approach
    - Step-by-step process
    - Explicit marking/counting
    - Track progress
-
 [Verification]
 1. Primary Count/Solution
    - Show explicit work
    - Mark items counted
    - Running total
-
 2. Secondary Verification
    - Different counting direction
    - Alternative method
    - Pattern validation
-
 [Final Answer]
 - Clear, single answer
 - Units/format specified
