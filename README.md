@@ -2,7 +2,7 @@
 Reasoning System Promts for Small and Large Language Models (SLM/LLM)
 
 
-Crafting Reasoning Prompts
+## Crafting Reasoning Prompts
 
 Effective reasoning prompts for Small Language Models follow a clear, systematic structure. The key element is instructing the model to format its reasoning process using XML tags <think> and </think>, which has become the standard way to present model reasoning.
 Core Components
@@ -40,7 +40,7 @@ A well-crafted reasoning prompt consists of these essential elements:
      [Final Answer]
      Verified solution with supporting evidence
 
-2.1 Verification Framework tips - You can include explicit verification steps to ensure reliability, like:
+Verification Framework tips - You can include explicit verification steps to ensure reliability, like:
 
     Solution consistency check
     Assumption validation
@@ -53,7 +53,7 @@ A well-crafted reasoning prompt consists of these essential elements:
     Relevant to the task domain
     Clear in demonstrating the reasoning process
 
-Disclaimer
+### Disclaimer
 
 The techniques presented in this article demonstrate potential approaches for enhancing reasoning capabilities in Small Language Models (SLMs). While models like Phi-3-mini and Meta's Llama 3.2 3B have shown promising results with these methods, performance can vary significantly across different models, tasks, and implementations.
 
