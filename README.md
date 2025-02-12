@@ -1,8 +1,22 @@
 # Reasoning System Prompts Promts
 Reasoning System Promts for Small and Large Language Models (SLM/LLM)
 
+### Optimizing SLM Performance
+To achieve reasoning capabilities on SLM/LLM similar to a larger models, several technical considerations are crucial:
 
-## Crafting Reasoning Prompts
+1. **Specialized System Prompts**
+   SMLs perform best with focused, task-specific prompts due to their limited context window. For specialized tasks, craft reasoning prompts that target the specific domain and experiment iteratively to find optimal prompt structures. This targeted approach helps the model maintain focus and deliver more reliable results.
+
+2. **Instruction-Tuned Models**
+   Choose models specifically trained to follow instructions, as they're better equipped to execute structured reasoning steps defined in system prompts. Models like Phi-3-mini and Llama 3.2 3B excel in this aspect.
+
+3. **Temperature Control**
+   Lower temperature settings (0.35-0.45) help maintain focus on structured reasoning. While higher temperatures can promote creative thinking, they may cause SLMs to deviate from prescribed instruction paths.
+
+4. **Repetition Penalty Management**
+   Many inference tools apply a default repetition penalty of 1.10. For reasoning tasks, this can be counterproductive as the structured thinking process inherently involves repetitive patterns. Consider disabling or minimizing this parameter to avoid disrupting the model's reasoning flow.
+
+## Crafting Reasoning System Prompts
 
 Effective reasoning prompts for Small Language Models follow a clear, systematic structure. The key element is instructing the model to format its reasoning process using XML tags <think> and </think>, which has become the standard way to present model reasoning.
 Core Components
