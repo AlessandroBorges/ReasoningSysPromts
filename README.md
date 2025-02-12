@@ -1,6 +1,8 @@
 
-# Reasoning System Prompts
-Reasoning System Promts for Small and Large Language Models (SLM/LLM)
+# Reasoning System Prompts for Small Language Models
+Crafting Reasoning System Promts for Small and Large Language Models (SLM/LLM). When enhanced with structured reasoning prompts, small language models can handle specialized tasks with precision and reliability comparable to much larger models. 
+
+The key lies in providing them with clear, systematic frameworks that break down complex problems into manageable steps. This approach not only improves accuracy but also makes the reasoning process transparent and verifiable.
 
 For an didatic overview, check our article at Medium [Unlocking Reasoning on Small Language Models](https://medium.com/@alessandroborges_84477/unlocking-reasoning-on-small-language-models-f48ce438f1fa).
 
@@ -8,7 +10,7 @@ For an didatic overview, check our article at Medium [Unlocking Reasoning on Sma
 <img src="https://miro.medium.com/v2/resize:fit:828/format:webp/1*75wfeTcWhDvCmGunXT4oPQ.png" alt="With proper instructions, you can create big things." width="280" />
 </p>
 
-### Optimizing SLM Performance - Prompts and Inference Parameters
+### A) Optimizing SLM Performance - Prompts and Inference Parameters
 To achieve reasoning capabilities on SLM/LLM similar to a larger models, several technical considerations are crucial:
 
 1. **Specialized System Prompts**
@@ -27,7 +29,7 @@ To achieve reasoning capabilities on SLM/LLM similar to a larger models, several
    
    Many inference tools apply a default repetition penalty of 1.10. For reasoning tasks, this can be counterproductive as the structured thinking process inherently involves repetitive patterns. Consider disabling or minimizing this parameter to avoid disrupting the model's reasoning flow.
 
-## Crafting Reasoning System Prompts
+## B) Crafting Reasoning System Prompts
 
 Effective reasoning prompts for Small Language Models follow a clear, systematic structure. The key element is instructing the model to format its reasoning process using XML tags <think> and </think>, which has become the standard way to present model reasoning.
 Core Components
@@ -78,7 +80,7 @@ Verification Framework tips - You can include explicit verification steps to ens
     Relevant to the task domain
     Clear in demonstrating the reasoning process
 
-### Disclaimer
+## Disclaimer
 
 The techniques presented in this article demonstrate potential approaches for enhancing reasoning capabilities in Small Language Models (SLMs). While models like Phi-3-mini and Meta's Llama 3.2 3B have shown promising results with these methods, performance can vary significantly across different models, tasks, and implementations.
 
