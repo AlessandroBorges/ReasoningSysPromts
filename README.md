@@ -1,5 +1,5 @@
 
-# Reasoning System Prompts Promts
+# Reasoning System Prompts
 Reasoning System Promts for Small and Large Language Models (SLM/LLM)
 
 For an didatic overview, check our article at Medium [Unlocking Reasoning on Small Language Models](https://medium.com/@alessandroborges_84477/unlocking-reasoning-on-small-language-models-f48ce438f1fa).
