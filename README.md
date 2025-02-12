@@ -1,7 +1,7 @@
 # Reasoning System Prompts Promts
 Reasoning System Promts for Small and Large Language Models (SLM/LLM)
 
-### Optimizing SLM Performance
+### Optimizing SLM Performance - Prompts and Inference Parameters
 To achieve reasoning capabilities on SLM/LLM similar to a larger models, several technical considerations are crucial:
 
 1. **Specialized System Prompts**
