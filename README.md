@@ -4,7 +4,7 @@ Reasoning System Promts for Small and Large Language Models (SLM/LLM)
 
 For an didatic overview, check our article at Medium [Unlocking Reasoning on Small Language Models](https://medium.com/@alessandroborges_84477/unlocking-reasoning-on-small-language-models-f48ce438f1fa).
 
-
+<img src="https://miro.medium.com/v2/resize:fit:828/format:webp/1*75wfeTcWhDvCmGunXT4oPQ.png" alt="With proper instructions, you can create big things." width="280" />
 
 ### Optimizing SLM Performance - Prompts and Inference Parameters
 To achieve reasoning capabilities on SLM/LLM similar to a larger models, several technical considerations are crucial:
