@@ -2,7 +2,17 @@
 # Reasoning System Prompts for Small Language Models
 Crafting Reasoning System Promts for Small and Large Language Models (SLM/LLM). When enhanced with structured reasoning prompts, small language models can handle specialized tasks with precision and reliability comparable to much larger models. 
 
-The key lies in providing them with clear, systematic frameworks that break down complex problems into manageable steps. This approach not only improves accuracy but also makes the reasoning process transparent and verifiable.
+Through structured reasoning prompts, language models can tackle problems with a transparent chain of thought. Examples include:
+
+* **Ethics**: "Should a company fire a loyal but underperforming employee who has sick children?" The model analyzes stakeholder impacts, company responsibilities, and long-term consequences.
+
+* **Logic**: "How many Rs are in ROBESPIERRE?" The model systematically counts occurrences and verifies its work for accuracy.
+
+* **Math**: "Calculate 55 × 22.30 + 12 × 11.50" The model breaks down operations, performs step-by-step calculations, and validates the result.
+
+The transparent reasoning process makes it easier to verify the model's logic and conclusions, at cost of more time for reasoning.
+
+The key to achieve that lies in providing clear, systematic frameworks that break down complex problems into manageable steps. This approach not only improves accuracy but also makes the reasoning process transparent and verifiable.
 
 For an didatic overview, check our article at Medium [Unlocking Reasoning on Small Language Models](https://medium.com/@alessandroborges_84477/unlocking-reasoning-on-small-language-models-f48ce438f1fa).
 
